@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="colorlib.com">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="container pl-1 pr-0">
+            <div class="signup-content ">
+                <div class="signup-desc ">
+                    <div class="signup-desc-content">
+                        <div class="col-md-9 py-4">
+                            <img src="images/Seven-logo.png" class="img-fluid mb-2" alt="">
+                        </div>
+
+                        <p class="title">Sign up now to try undraw 30 days for free</p>
+                        <p class="desc">
+                            MIT licensed illustrations for every project you can imagine and create
+                        </p>
+                        <img src="images/ilus.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="signup-form-conent">
+                    <form method="POST" id="signup-form" class="signup-form" enctype="multipart/form-data">
+                        <h3></h3>
+                        <aside>
+                            <span class="step-current">Step 1 / 5</span>
+                            <h2 class="pb-5">How do you need your users to sign-up?</h2>
+                            <p>Do your users need to sign-up before they begin to use your service? If your application
+                                deals with financial data, you may need a two-step authorization. Remember however that
+                                lengthy sign-ups can deter  customers.</p>
+                            <br />
+
+
+                            <input type="checkbox" id="checkbox" class="mr-2" />
+                            <h6 class="d-inline py-2 ">Web Development </h6>
+                            <br />
+                            <br />
+                            <input type="checkbox" id="checkbox" class="mr-2" />
+                            <h6 class="d-inline py-2 ">App Development</h6>
+                            <br />
+                            <br />
+                            <input type="checkbox" id="checkbox" class="mr-2" />
+                            <h6 class="d-inline py-2 ">Cloud Development</h6>
+
+                        </aside>
+
+                        <h3></h3>
+                        <aside>
+                            <span class="step-current">Step 2 / 5</span>
+                            <h2 class="pb-5">How do you need your users to sign-up?</h2>
+                            <p>Do your users need to sign-up before they begin to use your service? If your application
+                                deals with financial data, you may need a two-step authorization. Remember however that
+                                lengthy sign-ups can deter customers.</p>
+                            <br />
+
+                        <div class="form-group">
+                            <input type="radio" name="radio" class="mr-2" />
+                            <h6 class="d-inline py-2 ">Web Development </h6>
+                            <br />
+                            <br />
+                            <input type="radio" name="radio" class="mr-2" />
+                            <h6 class="d-inline py-2 ">App Development</h6>
+                            <br />
+                            <br />
+                            <input type="radio" name="radio" class="mr-2" />
+                            <h6 class="d-inline py-2 ">Cloud Development</h6>
+                        </div>
+                        </aside>
+
+                        <h3></h3>
+                        <aside>
+                            <span class="step-current">Step 3 / 5</span>
+                            <div class="form-group">
+                                <input type="text" name="email" id="email" required />
+                                <label for="email">Your Email</label>
+                            </div>
+                        </aside>
+
+                        <h3></h3>
+                        <aside>
+                            <span class="step-current">Step 4 / 5</span>
+                            <div class="form-group">
+                                <input type="text" name="your_password" id="your_password" required />
+                                <label for="your_password">Your Password</label>
+                                <span toggle="#your_password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                            </div>
+                        </aside>
+
+                        <h3></h3>
+                        <aside>
+                            <span class="step-current">Step 5 / 5</span>
+                            <div class="form-group">
+                                <input type="text" name="confirm_password" id="confirm_password" required />
+                                <label for="confirm_password">Confirm your password</label>
+                                <span toggle="#confirm_password"
+                                    class="zmdi zmdi-eye field-icon toggle-password"></span>
+                            </div>
+                        </aside>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="vendor/jquery-steps/jquery.steps.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
